@@ -1,5 +1,8 @@
 /* Smaller Screens */
 
+/* Author: Gael Rueda 
+    Date: 7/8/2024 */
+
 @media (max-width: 568px) {
     header nav ul {
       flex-direction: column;
