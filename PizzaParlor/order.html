@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <script
+      src="https://kit.fontawesome.com/cf42d9c947.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleScreen.css" />
+    <title>Order</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Savor & Slice</h1>
+      </div>
+      <nav id="navigationTop">
+        <ul>
+          <li><a href="menu.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="order.html">Order Now</a></li>
+          <li><a href="#">Location</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="orderForm">
+      <div class="container">
+        <div class="flex-columns">
+          <div class="column">
+            <form>
+              <label for="fname">First Name:</label>
+              <input type="text" id="fname" name="fname" /><br /><br />
+              <label for="lname">Last Name:</label>
+              <input type="text" id="lname" name="lname" /><br /><br />
+              <label for="phone">Phone:</label>
+              <input type="text" id="phone" name="phone" /><br /><br />
+              <label for="pizza">Choose your pizza:</label>
+              <select id="pizza" name="pizza">
+                <option value="veggie">Veggie</option>
+                <option value="margherita">Margherita</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="arugula">Arugula</option>
+                <option value="spicyChicken">Spicy Chicken Bacon Ranch</option>
+                <option value="choppMeat">Chopp Meat</option></select
+              ><br /><br />
+              <label for="quantity">Number of pizzas:</label>
+              <input
+                type="number"
+                id="quantity"
+                name="quantity"
+                min="1"
+                max="10"
+              /><br /><br />
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <div class="column">
+            <h2>Follow us on Social Media</h2>
+            <p>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-square-facebook"
+                  style="color: #9e2020"
+                ></i>
+                Facebook</a
+              >
+              |
+              <a href="#"
+                ><i
+                  class="fa-brands fa-square-x-twitter"
+                  style="color: #9e2020"
+                ></i
+                >Twitter</a
+              >
+              |
+              <a href="#"
+                ><i
+                  class="fa-brands fa-square-instagram"
+                  style="color: #9e2020"
+                ></i
+                >Instagram</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="containerFooter">
+        Thank you for choosing Savor & Slice as your trusted pizza place.
+      </div>
+    </footer>
+  </body>
+</html>
